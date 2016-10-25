@@ -1,0 +1,203 @@
+#include "stdio.h"
+
+int main(void) {
+    int velha[3][3];
+    int l, c;
+    char X[100], O[100];
+    printf ("Digite seu nome: \n");
+    scanf ("%s", &X);
+    printf ("Você será X \n");
+    printf ("Digite seu nome: \n");
+    scanf ("%s", &O);
+    printf ("Você será O \n");
+    printf ("Sua vez X \n");
+    scanf ("%i", &velha[l][c]);
+    for (l=0; l<3; l++) {
+    	for (c=0; c<3; c++) {
+    		printf ("\n");
+    	}
+    }
+    printf ("O... \n");
+    scanf ("%i", &velha[l][c]);
+    for (l=0; l<3; l++) {
+    	for (c=0; c<3; c++) {
+    		printf ("\n");
+    	}
+    }
+    printf ("Sua vez X \n");
+    scanf ("%i", &velha[l][c]);
+    for (l=0; l<3; l++) {
+    	for (c=0; c<3; c++) {
+    		printf ("\n");
+    	}
+    }
+    printf ("O... \n");
+    scanf ("%i", &velha[l][c]);
+    for (l=0; l<3; l++) {
+    	for (c=0; c<3; c++) {
+    		printf ("\n");
+    	}
+    }
+    printf ("Sua vez X \n");
+    scanf ("%i", &velha[l][c]);
+    for (l=0; l<3; l++) {
+    	for (c=0; c<3; c++) {
+    		printf ("\n");
+    	}
+    }
+    if (velha[0][0]=='X' && velha[0][1]=='X' && velha[0][2]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[1][0]=='X' && velha[1][1]=='X' && velha[1][2]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[2][0]=='X' && velha[2][1]=='X' && velha[2][2]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[0][0]=='X' && velha[1][0]=='X' && velha[2][0]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[0][1]=='X' && velha[1][1]=='X' && velha[2][1]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[0][2]=='X' && velha[1][2]=='X' && velha[2][2]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[0][0]=='X' && velha[1][1]=='X' && velha[2][2]=='X') {
+    	printf ("X ganhou o jogo \n");
+    }
+    if (velha[0][2]=='X' && velha[1][1]=='X' && velha[2][0]=='X') {
+    	printf ("X ganhou o jogo \n");
+    }
+    printf ("O... \n");
+    scanf ("%i", &velha[l][c]);
+    for (l=0; l<3; l++) {
+    	for (c=0; c<3; c++) {
+    		printf ("\n");
+    	}
+    }
+    if (velha[0][0]=='O' && velha[0][1]=='O' && velha[0][2]=='O') {
+    	printf ("O ganhou o jogo \n");	
+    }
+    if (velha[1][0]=='O' && velha[1][1]=='O' && velha[1][2]=='O') {
+    	printf ("O ganhou o jogo \n");	
+    }
+    if (velha[2][0]=='O' && velha[2][1]=='O' && velha[2][2]=='O') {
+    	printf ("O ganhou o jogo \n");	
+    }
+    if (velha[0][0]=='O' && velha[1][0]=='O' && velha[2][0]=='O') {
+    	printf ("O ganhou o jogo \n");	
+    }
+    if (velha[0][1]=='O' && velha[1][1]=='O' && velha[2][1]=='O') {
+    	printf ("O ganhou o jogo \n");	
+    }
+    if (velha[0][2]=='O' && velha[1][2]=='O' && velha[2][2]=='O') {
+    	printf ("O ganhou o jogo \n");	
+    }
+    if (velha[0][0]=='O'&& velha[1][1]=='O' && velha[2][2]=='O') {
+    	printf ("O ganhou o jogo \n");
+    }
+    if (velha[0][2]=='O' && velha[1][1]=='O' && velha[2][0]=='O') {
+    	printf ("O ganhou o jogo \n");
+    }
+    printf ("Sua vez X \n");
+    scanf ("%i", &velha[l][c]);
+    for (l=0; l<3; l++) {
+    	for (c=0; c<3; c++) {
+    		printf ("\n");
+    	}
+    }
+    if (velha[0][0]=='X' && velha[0][1]=='X' && velha[0][2]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[1][0]=='X' && velha[1][1]=='X' && velha[1][2]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[2][0]=='X' && velha[2][1]=='X' && velha[2][2]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[0][0]=='X' && velha[1][0]=='X' && velha[2][0]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[0][1]=='X' && velha[1][1]=='X' && velha[2][1]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[0][2]=='X' && velha[1][2]=='X' && velha[2][2]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[0][0]=='X' && velha[1][1]=='X' && velha[2][2]=='X') {
+    	printf ("X ganhou o jogo \n");
+    }
+    if (velha[0][2]=='X' && velha[1][1]=='X' && velha[2][0]=='X') {
+    	printf ("X ganhou o jogo \n");
+    }
+    printf ("O... \n");
+    scanf ("%i", &velha[l][c]);
+    for (l=0; l<3; l++) {
+    	for (c=0; c<3; c++) {
+    		printf ("\n");
+    	}
+    }
+    if (velha[0][0]=='O' && velha[0][1]=='O' && velha[0][2]=='O') {
+    	printf ("O ganhou o jogo \n");	
+    }
+    if (velha[1][0]=='O' && velha[1][1]=='O' && velha[1][2]=='O') {
+    	printf ("O ganhou o jogo \n");	
+    }
+    if (velha[2][0]=='O' && velha[2][1]=='O' && velha[2][2]=='O') {
+    	printf ("O ganhou o jogo \n");	
+    }
+    if (velha[0][0]=='O' && velha[1][0]=='O' && velha[2][0]=='O') {
+    	printf ("O ganhou o jogo \n");	
+    }
+    if (velha[0][1]=='O' && velha[1][1]=='O' && velha[2][1]=='O') {
+    	printf ("O ganhou o jogo \n");	
+    }
+    if (velha[0][2]=='O' && velha[1][2]=='O' && velha[2][2]=='O') {
+    	printf ("O ganhou o jogo \n");	
+    }
+    if (velha[0][0]=='O'&& velha[1][1]=='O' && velha[2][2]=='O') {
+    	printf ("O ganhou o jogo \n");
+    }
+    if (velha[0][2]=='O' && velha[1][1]=='O' && velha[2][0]=='O') {
+    	printf ("O ganhou o jogo \n");
+    }
+    else {
+    	printf ("Velha \n");
+    }
+    printf ("Sua vez X \n");
+    scanf ("%i", &velha[l][c]);
+    for (l=0; l<3; l++) {
+    	for (c=0; c<3; c++) {
+    		printf ("\n");
+    	}
+    }
+    if (velha[0][0]=='X' && velha[0][1]=='X' && velha[0][2]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[1][0]=='X' && velha[1][1]=='X' && velha[1][2]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[2][0]=='X' && velha[2][1]=='X' && velha[2][2]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[0][0]=='X' && velha[1][0]=='X' && velha[2][0]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[0][1]=='X' && velha[1][1]=='X' && velha[2][1]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[0][2]=='X' && velha[1][2]=='X' && velha[2][2]=='X') {
+    	printf ("X ganhou o jogo \n");	
+    }
+    if (velha[0][0]=='X' && velha[1][1]=='X' && velha[2][2]=='X') {
+    	printf ("X ganhou o jogo \n");
+    }
+    if (velha[0][2]=='X' && velha[1][1]=='X' && velha[2][0]=='X') {
+    	printf ("X ganhou o jogo \n");
+    }
+    else {
+    	printf ("Velha \n");
+    }
+    return 0;
+}
