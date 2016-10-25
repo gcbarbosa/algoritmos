@@ -1,0 +1,6 @@
+int pot(int x, int y) {
+	if(y==0)
+	return 1;
+	else
+		return x;
+	else return x*pot(x, y-1);
