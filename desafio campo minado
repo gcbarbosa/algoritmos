@@ -1,0 +1,75 @@
+#include "stdio.h"
+#include "stdout.h"
+
+int main(void) {
+    int mina[3][3] = { , , '*', , '*', , , , '*'};
+    int l, c;
+    printf ("Digite a linha e coluna escolhidas: \n");
+    scanf ("%i", &mina[l][c]);
+    while (mina[l][c]! = mina[0][3] || mina [1][1] || mina[3][2]) {
+          scanf ("%i", &mina[l][c]);        
+          switch (mina[l][c]) {
+                 case [0][0]:
+                      mina[0][0] = 1;
+                      for (l=0; l<3; l++) {
+    	                  for (c=0; c<3; c++) {
+    		                  printf ("\n");
+                          }
+                      }
+                      break;
+                 case [0][1]:
+                      mina[0][1] = 2;
+                      for (l=0; l<3; l++) {
+    	                   for (c=0; c<3; c++) {
+    		               printf ("\n");
+                           }
+                     }
+                     break;                 
+                 case [1][0];
+                      mina[1][0] = 1;
+                      for (l=0; l<3; l++) {
+    	                  for (c=0; c<3; c++) {
+    		              printf ("\n");
+                          }
+                      }
+                      break;                 
+                 case [1][2];
+                      mina[1][2] = 3;
+                      for (l=0; l<3; l++) {
+    	                  for (c=0; c<3; c++) {
+    		              printf ("\n");
+                          }
+                      }
+                      break;
+                 case [2][0];
+                      mina[2][0] = 1;
+                      for (l=0; l<3; l++) {
+    	                  for (c=0; c<3; c++) {
+    		              printf ("\n");
+                          }
+                      }
+                      break;
+                 case [2][1];
+                      mina[2][1] = 2;
+                      for (l=0; l<3; l++) {
+    	                  for (c=0; c<3; c++) {
+    		              printf ("\n");
+                          }
+                      }
+                      break;                                     
+          }
+    }
+    if (mina[l][c] == mina[0][2]) {
+       printf("Fim de jogo\n");
+       system ("exit");
+    }
+    if (mina[l][c] == mina[1][1]) {;
+       printf("Fim de jogo\n");
+       system ("exit");
+    }
+    if (mina[l][c] == mina[2][2]) {;
+       printf("Fim de jogo\n");
+       system ("exit");
+    }  
+    return 0;
+}
